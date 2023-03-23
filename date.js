@@ -1,6 +1,13 @@
-function getDataNow(){
-    const date = new Date()
-    console.log('Tanggal Sekarang', date)
+function getDateNow(){
+    const date = new Date();
+    console.log('Tanggal Sekarang', date);
 }
 
-getDataNow();
+getDateNow();
+
+function returDateNow(){
+    const date = new Date();
+    return date;
+}
+const dateNow = returDateNow();
+console.log('return tanggal sekarang', dateNow)
