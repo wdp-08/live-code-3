@@ -9,5 +9,17 @@ function returDateNow(){
     const date = new Date();
     return date;
 }
-const dateNow = returDateNow();
+
+function format_date(date) {
+    const options = {
+        weekday: "long",
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+    };
+    const dateTemp = new Date(date);
+    return dateTemp.toLocaleDateString("id-ID", options);
+}
+
+const dateNow = format_date(returDateNow());
 console.log('return tanggal sekarang', dateNow)
