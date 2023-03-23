@@ -1,14 +1,15 @@
+// writeCurrentDate()
 function writeCurrentDate() {
   const currentDate = new Date(); // return 0 GMT
   console.log(currentDate);
 }
-// writeCurrentDate()
 
-//   function returnCurrentDate() {
-//     const currentDate = new Date();
+// returnCurrentDate
+function returnCurrentDate() {
+  const currentDate = new Date();
 
-//     return currentDate;
-//   }
+  return currentDate;
+}
 
-//   const resultDate = returnCurrentDate();
-//   console.log(resultDate);
+const resultDate = returnCurrentDate();
+console.log(resultDate);
