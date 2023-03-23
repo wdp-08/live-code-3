@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIVE CODE 3</title>
+</head>
+<body>
+    <div id ="date">
+        <h2>HARI INI TANGGAL BERAPA?</h2>
+        <button onclick="date()">CEK</button>
+        <p id ="hasil"></p>
+    </div> 
+</body>
+<script>
+function date() {
+    const date = new Date;
+    console.log(date);
+    document.getElementById("hasil").innerHTML =date; 
+}
+
+</script>
+</html>
