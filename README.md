@@ -2,8 +2,7 @@
 
 ## Objectives
 
-- Mengerti Perbedaan `Let` dan `Const`
-- Mengerti Konsep Dari Tipe Data `Array`
+- Mengerti Konsep Dari `Function`
 
 ---
 
